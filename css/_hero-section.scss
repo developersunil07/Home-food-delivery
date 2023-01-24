@@ -1,0 +1,123 @@
+.hero-section{
+    background-image: url("../images/banner-1.jpg");
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+     padding-bottom: 50px;
+    color: #f0f0f0;
+    overflow: hidden;
+
+    .heading{
+       padding-top: 350px;
+
+       h1{
+        font-size: 6rem;
+        font-weight: 800;
+       }
+
+       .comman-color{
+        color: $comman-color;
+       }
+
+       hr{
+        width: 100px;
+        border: 0;
+        height: 0.5px;
+        background-color: $comman-color;
+        margin: 0 auto;
+        margin-top: 20px;
+        margin-bottom: 20px;
+      
+       }
+
+       p{
+        font-size: 2.2rem;
+        line-height: 1.7em;
+       }
+
+       .comman-button{
+        width: 180px;
+        height: 45px;
+        margin: 50px 0;
+        border: 0;
+        color: #fff;
+        font-size: 1.6rem;
+        font-weight: 100;
+        background-color: $comman-color;
+        border-radius: 30px;
+       }
+
+       .comman-button:hover{
+        transition: 0.5s;
+        background-color: transparent;
+        border: 1px solid $comman-color;
+        color: $comman-color;
+       }
+
+     
+
+    }
+
+    .leaf-1{
+        position: absolute;
+        top:130px;
+        width: 250px;
+       
+       }
+
+      .leaf-1  img{
+            width:100%;
+       }
+
+
+    @media only screen and (max-width:1020px){
+     padding-bottom: 50px;
+        
+
+        .heading{
+            padding-top: 200px;
+
+            h1{
+                font-size: 5rem;
+                font-weight: 800;
+               }
+
+            
+        
+               p{
+                font-size: 2.2rem;
+                line-height: 1.5em;
+               }
+
+               @media only screen and (max-width:500px){
+                p{
+                    font-size: 1.8rem;
+                    line-height: 1.5em;
+                   }
+
+               }
+
+               .comman-button{
+                width: 150px;
+                height: 40px;
+                margin: 20px 0;
+                border: 0;
+                color: #fff;
+                font-size: 1.6rem;
+                font-weight: 100;
+                background-color: $comman-color;
+                border-radius: 30px;
+               }
+        
+        }
+
+        .leaf-1{
+            position: absolute;
+            top:80px;
+            width: 100px;
+           
+           }   
+           
+    }
+    
+}

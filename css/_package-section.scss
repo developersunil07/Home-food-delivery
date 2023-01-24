@@ -1,0 +1,179 @@
+.package-section {
+    margin: 100px 0;
+    text-align: center;
+    position: relative;
+   
+
+    h2 {
+        font-size: 1.8rem;
+        font-weight: 400;
+        color: #484743;
+
+    }
+
+    h3{
+        font-size: 4rem;
+        font-weight: 400;
+        color: #7e7b73;
+    }
+
+    .flex-box{
+        @include flex-box;
+    }
+
+    section{
+        width: 30%;
+        margin-top: 80px;
+        border: 1px solid #484743;
+        padding: 30px 0;
+        position: relative;
+
+        h2{
+            font-size: 3rem;
+        }
+
+        h3{
+            font-size: 5rem;
+            margin: 10px 0;
+        }
+
+        h5{
+            color: #484743;
+            margin: 10px 0 30px 0;
+            font-size: 1.6rem;
+            font-weight: 500;
+        }
+
+        h4{
+            font-size: 2rem;
+            font-weight: 400;
+            margin: 14px 0;
+        }
+
+        button{
+            width: 180px;
+            height: 45px;
+            border: 0;
+            background-color: #ffc926;
+            color: #fff;
+            font-size: 1.5rem;
+            font-weight: 100;
+            border-radius: 30px;
+            margin: 30px 0 50px 0;
+        }
+
+        button:hover{
+            transition: 0.5s;
+            background-color: transparent;
+            border:1px solid #ffc926;
+            color: #ffc926;
+        }
+
+        .new-offer{
+            background-color: #484743;
+            font-weight: 600;
+            width: 100px;
+            left: -25px;
+            padding: 10px;
+            font-size: 1.3rem;
+            color: #fff;
+            position: absolute;
+            top:32px;
+           border-radius: 0px 30px 30px 0px;
+            transform: rotate(90deg);
+        }
+
+        
+    }
+
+    .different-section{
+        background-color: #fff;
+        border: 0;
+
+        button{
+            background-color: $comman-color;
+        }
+
+        button:hover{
+            background-color:transparent;
+            color: $comman-color;
+            border: 1px solid $comman-color;
+        }
+
+        .promo-price{
+            background-color: #e21e1e;
+            font-weight: 600;
+            width: 100px;
+            left: -25px;
+            padding: 8px;
+            font-size: 1.2rem;
+            color: #fff;
+            position: absolute;
+            top:35px;
+           border-radius: 0px 30px 30px 0px;
+            transform: rotate(90deg);
+        }
+
+    }
+
+    .leaf-5{
+        position: absolute;
+        bottom: -140px;
+        left: 0;
+        width: 170px;
+        z-index: 2000;
+        
+        img{
+            width: 100%;
+        z-index: 1000;
+
+        }
+    }
+
+    @media only screen and (max-width:768px){
+        margin: 60px 0;
+        text-align: center;
+        position: relative;
+    
+
+    
+
+    section{
+        width: 100%;
+        margin-top: 40px;
+        border: 1px solid #484743;
+        padding: 30px 0;
+        position: relative;
+
+        h2{
+            font-size: 3rem;
+        }
+
+        h3{
+            font-size: 5rem;
+            margin: 10px 0;
+        }
+
+        h5{
+            color: #484743;
+            margin: 10px 0 30px 0;
+            font-size: 1.6rem;
+            font-weight: 500;
+        }
+
+        h4{
+            font-size: 2rem;
+            font-weight: 400;
+            margin: 14px 0;
+        }
+
+        button{
+            margin: 30px 0 10px 0;
+        }
+
+        
+    }
+}
+
+
+}

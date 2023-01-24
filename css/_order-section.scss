@@ -1,0 +1,132 @@
+.order-section{
+    padding-top: 100px;
+    background: #f9f7f2;
+
+    .flex-box{
+        @include flex-box;
+    }
+
+    .model{
+        width: 50%;
+       
+    }
+
+    .model img{
+        width: 100%;
+    }
+
+    .info{
+        width: 45%;
+        margin-top: 100px;
+
+        h3{
+            font-size: 2rem;
+            font-weight: 400;
+        }
+
+        h2{
+            font-size: 5rem;
+            color: #7e7b73;
+            margin: 20px 0;
+        }
+
+        .comman-color{
+            color:$comman-color;
+        }
+
+        p{
+            font-size: 2rem;
+            line-height:1.5em;
+        }
+    }
+
+    button{
+        width: 180px;
+        height: 45px;
+        border: 0;
+        color: #fff;
+        font-size: 1.5rem;
+        font-weight: 100;
+        background-color: $comman-color;
+        border-radius: 30px;
+        margin-top: 30px;
+        
+    }
+
+    button:hover{
+        transition: 0.5s;
+        background-color: transparent;
+        border: 1px solid $comman-color;
+        color: $comman-color;
+       }
+
+       .button-2{
+        margin-left: 30px;
+        background-color: transparent;
+        border:1px solid #7e7b73;
+        color: #7e7b73;
+       }
+
+       .button-2:hover{
+        transition: 0.5s;
+        background-color: #7e7b73;
+        color: #fff;
+        border: 0;
+       }
+
+       @media only screen and (max-width:900px){
+
+        padding: 100px 0;
+        background: #f9f7f2;
+
+        .model{
+            background-image: url("../images/background_male_1.png");
+            background-size: cover;
+            position: top;
+            width: 100%;
+           
+        }
+
+        .info{
+            width: 100%;
+            margin-top: 30px;
+
+      
+    
+            h3{
+                font-size: 2.5rem;
+                font-weight: 400;
+            }
+    
+            h2{
+                font-size: 5.5rem;
+                color: #7e7b73;
+                margin: 20px 0;
+            }
+    
+            .comman-color{
+                color:$comman-color;
+            }
+    
+            p{
+                font-size: 3rem;
+                line-height:1.5em;
+            }
+        }
+
+        @media only screen and (max-width:430px){
+
+            .button-2{
+                margin-left: 0px;
+               
+               }
+
+        }
+
+       
+    
+    
+
+
+       }
+}
